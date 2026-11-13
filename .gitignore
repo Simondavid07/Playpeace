@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build / audit artefacts (not part of the site)
+audits/
+.harness/
+.space-build/
+.space-build-cloudflare/
+.space-build-cvm/
+space_data/
+space-versions/
+
+# Local-only
+*.log
+.env
